@@ -186,7 +186,7 @@ opacity: .2;
 .article_footer a{
     display: inline-flex;
     margin:2px;
-    padding: 5px 12px;
+    /* padding: 5px 12px; */
     text-decoration: none;
     line-height: none;
     font-size: 11px;
