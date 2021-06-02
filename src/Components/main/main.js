@@ -26,13 +26,23 @@ const Main = (props) => {
             <div className="l">
                 <img  src={image}></img>
             </div>
-
+        <span class=" image_caption overlay">Code gives you wings</span>
         </div>
         </header>
      </div>
      </div>
      <div className="recent_container">
-     <div className="op">Search box</div>
+     <div className="sidebar">
+     <div className="op search search_box">
+         <form className="search_form">
+             <label>
+                 <span></span>
+                     <input type="Search" placeholder="Search" className="search_input"></input>
+                 
+             </label>
+             {/* <input type="submit" className="search_icon"></input> */}
+         </form >
+     </div>
      <div className="widget">
          <h2 className="recent_widget recent_post">Recents Post</h2>
          <ul>
@@ -65,6 +75,7 @@ const Main = (props) => {
      </div>
      </div>
     </div>
+   </div>
    </div>
     )
 
