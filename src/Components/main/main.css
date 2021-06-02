@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+body{
+   
+    font-family: 'Poppins', sans-serif;
+    margin:0 auto;
+}
+.l{
+    position: relative;
+}
+.ll{
+    height: auto;
+    margin-left: auto;
+    margin-left: auto;
+    display: block;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    
+
+}
+
+.main_container{
+    max-width: 66.66%;
+    width:66.66%;
+    background:#fff;
+}
+
+.recent_container{
+    max-width: 33.33%;
+    width:33.33%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 50px;
+    flex:0 0 33.33%;
+}
+
+.cat_position{
+    position: relative;
+    padding: 0;
+    margin-bottom: 10px;
+    top:auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+}
+
+.cat_info{
+z-index: 4;
+ font-weight: 600;
+ /* font-size: 11px; */
+ align-items: center;
+ flex-flow: row wrap;
+}
+
+.catagory{
+    padding: 4px 12px;
+    color: #fff;
+    background-color: rgb(243, 164, 45);
+    text-decoration: none;
+    letter-spacing: 0.125rem;
+    white-space: nowrap;
+}
+
+.article_heading{
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.k{
+    position: relative;
+}
+.l{
+    position: relative;
+    width: 100%;
+
+}
+.l img{
+    /* height: 100%; */
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-position: center;
+    object-fit: cover;
+    /* position: relative;
+    display: block; */
+
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.op{
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.recent_widget{
+  position: relative;
+  margin-bottom: 20px;
+  display:block
+
+}
+.recent_post{
+    font-size: 1rem;
+}
+.widget li{
+    display: block;
+    position:relative;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+.post-date{
+    position: relative;
+    display: block;
+    margin-top: 7px;
+    font-size: 12px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+#link::before{
+    content: url("../../images/blogicon.png");
+    display: inline;
+    margin-right: 8px;
+    font-size: 10px;
+}
