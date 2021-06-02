@@ -1,6 +1,7 @@
 import React from 'react'
 import "./main.css"
 import image from "../../images/image.jpg";
+import Comment from "../comment/comment"
 /**
 * @author
 * @function 
@@ -26,15 +27,74 @@ const Main = (props) => {
             <div className="l">
                 <img  src={image}></img>
             </div>
-        <span class=" image_caption overlay">Code gives you wings</span>
+        <span class="image_caption overlay">Code gives you wings</span>
         </div>
         </header>
      </div>
+     
+     <div className="content_body content">
+         <div>
+             <h2>Introduction To Career Camp</h2>
+            <p>Meet Sudhendra Kumar Singh, a B. TECH (C.S.E) graduate from Amity University) batch 2016-20). He joined the Coders Club in his college and won several distinctions in coding hackathons throughout his graduation. 
+
+            Singh joined Coding Ninjas’ Career Camp in January 2020 and soon bagged an internship in July 2020 as a Full-stack web developer in Brickview Studios and soon got placed as a front-end developer in Gocomet Pvt Ltd via Career Camp. He is also serving as a Teaching Assistant for current Career Camp batches for web development and Data structures courses. </p>
+            <h2>Coding Journey</h2>
+            <p>First few months I struggled a lot, then after six months, I was able to solve almost all basic to intermediate level problems. Then I joined Coding Ninjas which improved my problem-solving skills,” Singh mentions. 
+
+He came to know about Career Camp through his friend who suggested he appear for the Career Camp entrance test.</p>
+<h2>Introduction To Career Camp</h2>
+            <p>Meet Sudhendra Kumar Singh, a B. TECH (C.S.E) graduate from Amity University) batch 2016-20). He joined the Coders Club in his college and won several distinctions in coding hackathons throughout his graduation. 
+
+            Singh joined Coding Ninjas’ Career Camp in January 2020 and soon bagged an internship in July 2020 as a Full-stack web developer in Brickview Studios and soon got placed as a front-end developer in Gocomet Pvt Ltd via Career Camp. He is also serving as a Teaching Assistant for current Career Camp batches for web development and Data structures courses. </p>
+            <h2>Coding Journey</h2>
+            <p>First few months I struggled a lot, then after six months, I was able to solve almost all basic to intermediate level problems. Then I joined Coding Ninjas which improved my problem-solving skills,” Singh mentions. 
+
+He came to know about Career Camp through his friend who suggested he appear for the Career Camp entrance test.</p>
+         </div>
      </div>
+     <div className="article_footer">
+         <div className="article_tag">
+             <div className="tags post-tag">
+                 <span className="tag_icon">TAGS</span>
+                <a><span className="round-tab">Web development</span></a>
+                <a><span className="round-tab">Designing</span></a>
+                <a><span className="round-tab">Carrer</span></a>
+                </div>
+        </div>
+        
+     </div>
+     {/* social media div */}
+     <aside className="social_media_cot">
+     <div className="share_tab">
+         <span className="share_no">0</span>
+         <span className="share">Shares</span>
+     </div>
+     <div className="social_media">
+         <a>
+             <i className="social_icon facebook"></i>
+             <span className="fb">Share on Facebook</span>
+         </a>
+         <a>
+             <i className="social_icon twitter"></i>
+             <span className="twi">Share on Twitter</span>
+         </a>
+         <a>
+             <i className="social_icon pinterest"></i>
+             <span className="dont_show">Share on pinterest</span>
+         </a>
+         <a>
+             <i className="social_icon mail"></i>
+             <span className="dont_show">Share on gmail</span>
+         </a>
+     </div>
+     </aside>
+     {/* <Comment/> */}
+     </div>
+     {/* main container end here */}
      <div className="recent_container">
      <div className="sidebar">
      <div className="op search search_box">
-         <form className="search_form">
+         <form className="search_form" style={{marginLeft:0}}>
              <label>
                  <span></span>
                      <input type="Search" placeholder="Search" className="search_input"></input>
@@ -52,7 +112,15 @@ const Main = (props) => {
              </li>
 
              <li>
-                 <a id="link">Facebook Interview Questions for Off-Campus Placement</a>
+                 <a id="link">Coding Ninjas’ Career Camp Gives You Wings To Achieve Your Dreams</a>
+                 <span className="post-date">Date</span>
+             </li>
+             <li>
+                 <a id="link">Clustering in Machine Learning for Python</a>
+                 <span className="post-date">Date</span>
+             </li>
+             <li>
+                 <a id="link">Java Cheat Sheet: Things You Should Be Knowing</a>
                  <span className="post-date">Date</span>
              </li>
              <li>
@@ -60,15 +128,7 @@ const Main = (props) => {
                  <span className="post-date">Date</span>
              </li>
              <li>
-                 <a id="link">Facebook Interview Questions for Off-Campus Placement</a>
-                 <span className="post-date">Date</span>
-             </li>
-             <li>
-                 <a id="link">Facebook Interview Questions for Off-Campus Placement</a>
-                 <span className="post-date">Date</span>
-             </li>
-             <li>
-                 <a id="link">Facebook Interview Questions for Off-Campus Placement</a>
+                 <a id="link">Commonly used Machine Learning Algorithms (with Python & R Codes)</a>
                  <span className="post-date">Date</span>
              </li>
          </ul>

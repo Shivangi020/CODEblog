@@ -27,6 +27,8 @@ body{
 }
 
 .main_container{
+    display: flex;
+    flex-direction: column;
     max-width: 66.66%;
     width:66.66%;
     background:#fff;
@@ -102,7 +104,7 @@ img{
     max-width: 100%;
     vertical-align: middle;
 }
- .overlay{
+.image_caption.overlay{
     position: absolute;
     right: 10px;
     bottom: 10px;
@@ -152,10 +154,155 @@ img{
  margin: 0;
  padding: 5px 50px 5px 20px;
  width: 100%;
- background-color: rgb(252, 248, 248);
+ background-color: rgb(238, 228, 228);
  border:none
 }
+.article_footer{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    padding-top: 35px;
+    line-height: 26px;
+}
 
+.article_footer::before{
+position: absolute;
+top:0;
+left:0;
+display: block;
+width:100%;
+height: 10px;
+background-color: transparent;
+background-image: radial-gradient(currentColor 1px, transparent 1px);
+background-position: 1px 1px;
+background-size: 5px 5px;
+content:"";
+opacity: .2;
+}
+.tag{
+  display: flex;
+  flex-flow: row wrap;
+}
+.article_footer a{
+    display: inline-flex;
+    margin:2px;
+    padding: 5px 12px;
+    text-decoration: none;
+    line-height: none;
+    font-size: 11px;
+}
+.round-tab{
+    margin-bottom: 6px;
+    margin-right: 2px;
+    border-radius: 25px;
+    padding: 2px 6px;
+    color: #1f1e1d;
+    background-color:#eceae7 ;
+  }
+.tag_icon::before{
+    content:url("../../images/tag.png");
+    display: inline-block;
+    margin-right: 5px;
+    min-width: 10px;
+    font-style: normal;
+}
+.article_footer .article_tag{
+    display: inline-block;
+    text-align: left;
+}
+
+.article_footer .tag_icon{
+    letter-spacing:.1em;
+    font-weight: 500;
+    font-size: 12px;
+
+}
+.tag_icon{
+    display: inline-block;
+    margin:2px 0;
+    max-width: 75px;
+    line-height: inherit;
+}
+/* share media */
+.social_media_cot{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 40px auto 0 auto;
+}
+.share_tab{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row nowrap;
+}
+.share_tab::before{
+    content: url("../../images/share.webp");
+    margin-right: 7px;
+}
+.share_no{
+    color: orange;
+    font-size: 1.5rem;
+}
+.share{
+    margin-left: 7px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* social media */
+.social_media{
+    display: flex;
+    margin-left: auto;
+    font-size: 16px;
+    /* flex-flow: row wrap; */
+    align-items: center;
+}
+.social_media_cot a{
+    display: flex;
+    height: 45px;
+    /* width: 45px; */
+    margin: 5px;
+    background:rgb(241, 239, 239);
+    line-height:1;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.social_media_cot i{
+    font-size: 20px;
+}
+.facebook::before{
+content: url(../../images/facebook.png);
+padding-right: 7px;
+}
+.twitter::before{
+    content: url(../../images/twitter.png);
+    padding-right: 7px;
+}
+.pinterest::before{
+    content: url(../../images/pinteres.webp);
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.dont_show{
+    display: none;
+}
+
+.mail::before{
+    content: url(../../images/maill.webp);
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.dont_show{
+    display: none;
+}
+
+/* recent widget */
 .recent_widget{
   position: relative;
   margin-bottom: 20px;
@@ -170,7 +317,7 @@ img{
     position:relative;
     margin-bottom: 15px;
     font-weight: 400;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
 }
 .post-date{
     position: relative;
@@ -221,7 +368,7 @@ ul{
 }
 
 @media only  screen and (max-width:767px) {
-.overlay{
+.image_caption.overlay{
     position: relative;
     right: auto;
     bottom: 0;
@@ -238,9 +385,27 @@ ul{
     font-size: 1.5rem;
     line-height: 1.3;
 }
+.facebook::before{
+    padding-left: 7px;
+    /* padding-right: 7px; */
+ }
+ .twitter::before{
+    padding-left: 7px;
+ }
+.fb,.twi{
+    display: none;
 }
+}
+
+
+
 @media only  screen and (max-width:479px){
     .article_heading{
         font-size: 1.35rem;
     }
+    .social_media_cot a{
+        height: 40px;
+        width: 35px;
+    }
+
 }
