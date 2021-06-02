@@ -44,7 +44,7 @@ const Main = (props) => {
          </form >
      </div>
      <div className="widget">
-         <h2 className="recent_widget recent_post">Recents Post</h2>
+         <h2 className="recent_widget recent_post">Recent Post</h2>
          <ul>
              <li>
                  <a id="link">Facebook Interview Questions for Off-Campus Placement</a>
