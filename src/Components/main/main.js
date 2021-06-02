@@ -88,7 +88,7 @@ He came to know about Career Camp through his friend who suggested he appear for
          </a>
      </div>
      </aside>
-     {/* <Comment/> */}
+     <Comment/>
      </div>
      {/* main container end here */}
      <div className="recent_container">
