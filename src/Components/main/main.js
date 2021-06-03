@@ -9,7 +9,7 @@ import { FaTag} from 'react-icons/fa';
 import { FaEdit} from 'react-icons/fa';
 import { FaEnvelope} from 'react-icons/fa';
 import { FaSearch} from 'react-icons/fa';
-
+// import article from "./article"
 /**
 * @author
 * @function 
@@ -116,7 +116,7 @@ He came to know about Career Camp through his friend who suggested he appear for
          <ul>
              <li>
                  <a id="link"><FaEdit/>Facebook Interview Questions for Off-Campus Placement</a>
-                 <span className="post-date">Date</span>
+                 <span className="post-date">date</span>
              </li>
 
              <li>
