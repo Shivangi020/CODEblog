@@ -2,13 +2,13 @@ import React from 'react'
 import "./main.css"
 import image from "../../images/image.jpg";
 import Comment from "../comment/comment";
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebook, FaShare } from 'react-icons/fa';
 import { FaTwitter} from 'react-icons/fa';
 import { FaPinterest } from 'react-icons/fa';
 import { FaTag} from 'react-icons/fa';
 import { FaEdit} from 'react-icons/fa';
 import { FaEnvelope} from 'react-icons/fa';
-import { FaSearch} from 'react-icons/fa';
+import { FaComment} from 'react-icons/fa';
 // import article from "./article"
 /**
 * @author
@@ -73,7 +73,7 @@ He came to know about Career Camp through his friend who suggested he appear for
      </div>
      {/* social media div */}
      <aside className="social_media_cot">
-     <div className="share_tab">
+     <div className="share_tab"><FaShare/>
          <span className="share_no">0</span>
          <span className="share">Shares</span>
      </div>
@@ -96,7 +96,12 @@ He came to know about Career Camp through his friend who suggested he appear for
          </a>
      </div>
      </aside>
+     {/* comment box here */}
      <Comment/>
+
+     {/* comment box */}
+
+
      </div>
      {/* main container end here */}
      <div className="recent_container">

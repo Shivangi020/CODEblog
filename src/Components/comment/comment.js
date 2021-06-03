@@ -3,6 +3,8 @@ import "./comment.css"
 import image from "../../images/image.jpg";
 import { FaAngleLeft} from 'react-icons/fa';
 import { FaAngleRight} from 'react-icons/fa';
+import { FaComment} from 'react-icons/fa';
+
 /**
 * @author
 * @function Comment
@@ -45,7 +47,7 @@ const Comment
      <aside className="comment_box">
          <div className="comment_box_header clearfix">
              <h4 className="reply">
-                 <i className="reply_icon"></i>
+                 <i ><FaComment className="reply_icon"/></i>
                  Leave a reply
              </h4>
          </div>

@@ -128,8 +128,9 @@ h4{
     margin-top: 40px;
     padding-top: 45px;
 }
-.comment_box_header::before{
-    content: url(../../images/bubble-32.png);
+.reply_icon{
+padding-right: px;
+font-size: 1.65rem;
 }
 .comment_box_header{
     display: flex;
@@ -144,9 +145,10 @@ h4{
 }
 .comment_box_header h4{
     margin-right: 7px;
+    display: flex;
 }
 .reply{
-font-size: 1.25rem;
+font-size: 1.35rem;
 line-height: 1.25;
 }
 

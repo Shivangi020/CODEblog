@@ -240,12 +240,12 @@ opacity: .2;
     flex-flow:row nowrap;
 }
 .share_tab::before{
-    content: url("../../images/share.webp");
+    /* content: url("../../images/share.webp"); */
     margin-right: 7px;
 }
 .share_no{
     color: orange;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 .share{
     margin-left: 7px;
@@ -278,16 +278,16 @@ opacity: .2;
 .social_media_cot i{
     font-size: 25px;
 }
-.facebook::before{
-/* content: url(../../images/facebook.png); */
+.facebook{
+
 padding-right: 7px;
 }
-.twitter::before{
-    /* content: url(../../images/twitter.png); */
+.twitter{
+    
     padding-right: 7px;
 }
-.pinterest::before{
-    /* content: url(../../images/pinteres.webp); */
+.pinterest{
+   
     padding-right: 7px;
     padding-left: 7px;
 }
@@ -295,8 +295,8 @@ padding-right: 7px;
     display: none;
 }
 
-.mail::before{
-    /* content: url(../../images/maill.webp); */
+.mail{
+    
     padding-right: 7px;
     padding-left: 7px;
 }
