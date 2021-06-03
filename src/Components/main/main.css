@@ -233,14 +233,14 @@ opacity: .2;
     
 }
 .share_tab{
-    display: flex;
+    /* display: flex; */
     flex-shrink: 0;
     justify-content: center;
     align-items: center;
     flex-flow:row nowrap;
 }
 .share_tab::before{
-    /* content: url("../../images/share.webp"); */
+    content: url("../../images/share.webp");
     margin-right: 7px;
 }
 .share_no{

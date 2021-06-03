@@ -73,7 +73,7 @@ He came to know about Career Camp through his friend who suggested he appear for
      </div>
      {/* social media div */}
      <aside className="social_media_cot">
-     <div className="share_tab"><FaShare/>
+     <div className="share_tab">
          <span className="share_no">0</span>
          <span className="share">Shares</span>
      </div>

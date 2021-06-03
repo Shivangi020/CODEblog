@@ -43,11 +43,15 @@ const Comment
          </div> 
      </nav>
      {/* nav bar ends here */}
+     
+     
+     
      {/* Comment form */}
+
      <aside className="comment_box">
          <div className="comment_box_header clearfix">
              <h4 className="reply">
-                 <i ><FaComment className="reply_icon"/></i>
+                 <i className="reply_icon"></i>
                  Leave a reply
              </h4>
          </div>

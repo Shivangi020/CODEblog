@@ -147,13 +147,17 @@ font-size: 1.65rem;
     margin-right: 7px;
     display: flex;
 }
-.reply{
-font-size: 1.35rem;
-line-height: 1.25;
+
+.reply:before{
+   content:url(../../images/bubble-32.png);
+   padding-right: 6px;
+    
 }
-
-
-
+.reply{
+    font-size: 1.35rem;
+    line-height: 1.25;
+}
+    
 /* comment form */
 
 .comment-form{
