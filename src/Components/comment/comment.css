@@ -104,6 +104,9 @@ h4{
 /* .icon2::before{
     content: url(../../images/right.png);
    } */
+
+
+ 
 .comment_box::before{
     position: absolute;
     top:0;
@@ -118,7 +121,7 @@ h4{
     content:"";
     opacity: .2;
     }
-
+  /* comment form css starts  here */
 .comment_box{
     position: relative;
     display: block;
@@ -146,11 +149,16 @@ h4{
 font-size: 1.25rem;
 line-height: 1.25;
 }
+
+
+
+/* comment form */
+
 .comment-form{
     position: relative;
     display: block;
     margin-left: -10px;
-    margin-right: -10px;
+    /* margin-right: -10px; */
 }
 .comment_area{
     display:block;
@@ -211,7 +219,13 @@ textarea{
         width:100%
     }
 }
+/* comment form css ends here */
 
+
+
+
+
+/* important  */
 @media only  screen and (max-width:469px) {
     .nav_img img{
         display: none;
