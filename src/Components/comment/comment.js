@@ -40,6 +40,8 @@ const Comment
          </a>
          </div> 
      </nav>
+     {/* nav bar ends here */}
+     {/* Comment form */}
      <aside className="comment_box">
          <div className="comment_box_header clearfix">
              <h4 className="reply">
@@ -97,6 +99,7 @@ const Comment
                      </p>
                     
                  </form>
+                 {/* commentform */}
                  </div>   
              </div>
          </div>
