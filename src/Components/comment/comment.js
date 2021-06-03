@@ -64,29 +64,29 @@ const Comment
                           </textarea>
                       </p>
                     <div className="user_input">
-                     <div> <p className="form-author">
+                      <p className="form-author">
                           <label for="name"></label>
                           <textarea placeholder="Name"
                           required="required">
 
                           </textarea>
-                      </p></div>
+                      </p>
                      
-                     <div> <p className="form-email">
+                <p className="form-email">
                           <label for="email"></label>
                           <textarea placeholder="Email"
                           required="required" style={{marginRight:6}}>
 
                           </textarea>
-                      </p></div>
+                      </p>
                       
-                    <div>  <p className="form-website">
+                    <p className="form-website">
                           <label for="Website"></label>
                           <textarea placeholder="Website"
                           required="required" style={{marginRight:0}}>
 
                           </textarea>
-                      </p></div></div>
+                      </p></div>
                       <p className="form-comment-cookies">
                        <input type="checkbox" className="checkbox"/>
                        <label for="comment-cookies">Save my name, email, and website in this browser for the next time I comment.</label>
