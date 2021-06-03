@@ -1,7 +1,15 @@
 import React from 'react'
 import "./main.css"
 import image from "../../images/image.jpg";
-import Comment from "../comment/comment"
+import Comment from "../comment/comment";
+import { FaFacebook } from 'react-icons/fa';
+import { FaTwitter} from 'react-icons/fa';
+import { FaPinterest } from 'react-icons/fa';
+import { FaTag} from 'react-icons/fa';
+import { FaEdit} from 'react-icons/fa';
+import { FaEnvelope} from 'react-icons/fa';
+import { FaSearch} from 'react-icons/fa';
+
 /**
 * @author
 * @function 
@@ -55,10 +63,10 @@ He came to know about Career Camp through his friend who suggested he appear for
      <div className="article_footer">
          <div className="article_tag">
              <div className="tags post-tag">
-                 <span className="tag_icon">TAGS</span>
+                 <span className="tag_icon"><FaTag/> TAGS</span>
                 <a><span className="round-tab">Web development</span></a>
                 <a><span className="round-tab">Designing</span></a>
-                <a><span className="round-tab">Carrer</span></a>
+                <a><span className="round-tab">Career</span></a>
                 </div>
         </div>
         
@@ -71,20 +79,20 @@ He came to know about Career Camp through his friend who suggested he appear for
      </div>
      <div className="social_media">
          <a>
-             <i className="social_icon facebook"></i>
-             <span className="fb">Share on Facebook</span>
+             <i className="social_icon facebook">
+            <FaFacebook/></i> <span className="fb"> Share on Facebook</span>
          </a>
          <a>
-             <i className="social_icon twitter"></i>
-             <span className="twi">Share on Twitter</span>
+             <i className="social_icon twitter">
+             <FaTwitter/> </i><span className="twi">Share on Twitter</span>
          </a>
          <a>
-             <i className="social_icon pinterest"></i>
-             <span className="dont_show">Share on pinterest</span>
+             <i className="social_icon pinterest">
+             <FaPinterest/> </i>
          </a>
          <a>
-             <i className="social_icon mail"></i>
-             <span className="dont_show">Share on gmail</span>
+             <i className="social_icon mail">
+             <FaEnvelope/></i>
          </a>
      </div>
      </aside>
@@ -98,7 +106,7 @@ He came to know about Career Camp through his friend who suggested he appear for
              <label>
                  <span></span>
                      <input type="Search" placeholder="Search" className="search_input"></input>
-                 
+                     
              </label>
              {/* <input type="submit" className="search_icon"></input> */}
          </form >
@@ -107,28 +115,28 @@ He came to know about Career Camp through his friend who suggested he appear for
          <h2 className="recent_widget recent_post">Recent Post</h2>
          <ul>
              <li>
-                 <a id="link">Facebook Interview Questions for Off-Campus Placement</a>
+                 <a id="link"><FaEdit/>Facebook Interview Questions for Off-Campus Placement</a>
                  <span className="post-date">Date</span>
              </li>
 
              <li>
-                 <a id="link">Coding Ninjas’ Career Camp Gives You Wings To Achieve Your Dreams</a>
+                 <a id="link"><FaEdit/>Coding Ninjas’ Career Camp Gives You Wings To Achieve Your Dreams</a>
                  <span className="post-date">Date</span>
              </li>
              <li>
-                 <a id="link">Clustering in Machine Learning for Python</a>
+                 <a id="link"><FaEdit/>Clustering in Machine Learning for Python</a>
                  <span className="post-date">Date</span>
              </li>
              <li>
-                 <a id="link">Java Cheat Sheet: Things You Should Be Knowing</a>
+                 <a id="link"><FaEdit/>Java Cheat Sheet: Things You Should Be Knowing</a>
                  <span className="post-date">Date</span>
              </li>
              <li>
-                 <a id="link">Facebook Interview Questions for Off-Campus Placement</a>
+                 <a id="link"><FaEdit/>Facebook Interview Questions for Off-Campus Placement</a>
                  <span className="post-date">Date</span>
              </li>
              <li>
-                 <a id="link">Commonly used Machine Learning Algorithms (with Python & R Codes)</a>
+                 <a id="link"><FaEdit/>Commonly used Machine Learning Algorithms (with Python & R Codes)</a>
                  <span className="post-date">Date</span>
              </li>
          </ul>

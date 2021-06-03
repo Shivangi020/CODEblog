@@ -200,7 +200,7 @@ opacity: .2;
     background-color:#eceae7 ;
   }
 .tag_icon::before{
-    content:url("../../images/tag.png");
+    /* content:url("../../images/tag.png"); */
     display: inline-block;
     margin-right: 5px;
     min-width: 10px;
@@ -276,18 +276,18 @@ opacity: .2;
     border-radius: 6px;
 }
 .social_media_cot i{
-    font-size: 20px;
+    font-size: 30px;
 }
 .facebook::before{
-content: url(../../images/facebook.png);
+/* content: url(../../images/facebook.png); */
 padding-right: 7px;
 }
 .twitter::before{
-    content: url(../../images/twitter.png);
+    /* content: url(../../images/twitter.png); */
     padding-right: 7px;
 }
 .pinterest::before{
-    content: url(../../images/pinteres.webp);
+    /* content: url(../../images/pinteres.webp); */
     padding-right: 7px;
     padding-left: 7px;
 }
@@ -296,7 +296,7 @@ padding-right: 7px;
 }
 
 .mail::before{
-    content: url(../../images/maill.webp);
+    /* content: url(../../images/maill.webp); */
     padding-right: 7px;
     padding-left: 7px;
 }
@@ -332,7 +332,7 @@ ul{
     padding-left: 0;
 }
 #link::before{
-    content: url("../../images/blogicon.png");
+    /* content: url("../../images/blogicon.png"); */
     display: inline;
     margin-right: 8px;
     font-size: 10px;

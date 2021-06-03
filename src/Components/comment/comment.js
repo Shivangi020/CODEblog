@@ -1,6 +1,8 @@
 import React from 'react'
 import "./comment.css"
 import image from "../../images/image.jpg";
+import { FaAngleLeft} from 'react-icons/fa';
+import { FaAngleRight} from 'react-icons/fa';
 /**
 * @author
 * @function Comment
@@ -16,7 +18,7 @@ const Comment
          <a href="">
              <span className="nav-label">
                  <i className="icon1"></i>
-                 <span>Previous Article</span>
+                 <span><FaAngleLeft/>Previous Article</span>
              </span>
              <span className="nav_img h4">
                  <img style={{width:50,height:50}} src={image} className="img1"/>
@@ -29,7 +31,7 @@ const Comment
          <a href="">
              <span className="nav-label">
                  <i className="icon2"></i>
-                 <span>Next Article</span>
+                 <span>Next Article<FaAngleRight/></span>
              </span>
              <span className="nav_img h4">
                  <img style={{width:50,height:50 }} src={image} className="img2" />
