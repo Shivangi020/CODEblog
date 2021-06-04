@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 .comment_header{
     position: relative;
     max-width: 750px;
@@ -103,8 +104,57 @@ h4{
 }
 /* .icon2::before{
     content: url(../../images/right.png);
-   } */
+} */
 
+
+
+
+/* Comment Box Css    */
+.ContactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+}
+
+.ContactForm input[type='text'],.ContactForm input[type='email'],.ContactForm input[type='number'],.textareaContactDetails{
+
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    font-family: inherit;
+    background-color: #fff !important;
+
+}
+
+
+
+
+.btn-hover {
+    cursor: pointer;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+
+    height: 40px;
+    text-align:center;
+    border: none;
+    padding: 8px 14px;
+    background-color: #ec7c2d;
+
+    border-radius: 5px;
+}
+
+.btn-hover:hover {
+    background-color: grey;
+}
 
  
 .comment_box::before{
@@ -128,21 +178,42 @@ h4{
     margin-top: 40px;
     padding-top: 45px;
 }
+
+
 .reply_icon{
-padding-right: px;
+padding-right:8px;
 font-size: 1.65rem;
 }
 .comment_box_header{
     display: flex;
     align-items: center;
 }
-.comment_notes{
+.form-comment-cookies{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* text-align: left; */
+    padding: 14px 0px;
+    margin: 8px 0px;
+}
+.form-comment-cookies input[type='checkbox']{
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.form-comment-cookies label {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .comment_notes{
     margin-bottom: 20px;
     font-size: 0.857rem;
-}
-#e-notes{
+} */
+/* #e-notes{
     font-style: italic;
-}
+} */
 .comment_box_header h4{
     margin-right: 7px;
     display: flex;
@@ -182,36 +253,21 @@ font-size: 1.65rem;
 a{
 text-decoration: none;
 }
-textarea{
+/* textarea{
     border:none;
     background-color: rgb(241, 241, 241);
-}
-.user_input{
-    /* width:1200px; */
-    display: flex;
-    margin-bottom: 30px;
-}
-.checkbox{
-    margin-left: 0;
-}
-.user_input textarea{
-    margin-right: 10px;
-    width:100%;
-}
+} */
 
-.form-comment-cookies{
-    margin-top: 50px;
-}
-.submit_input{
-    padding: 10px 40px;
-    border: none;
-    white-space: nowrap;
-    font-weight: 600;
-    font-size: 12px;
-    cursor: pointer;
-    background-color: #333;
-    color: white;
-}
+
+
+
+
+
+
+
+
+
+
 @media only  screen and (max-width:767px) {
     .user_input{
         display: grid;
@@ -240,4 +296,3 @@ textarea{
         border-right: 1px solid rgba(0, 0, 0, 0.7);
     }
 }
-
